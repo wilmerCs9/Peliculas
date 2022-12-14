@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&family=Roboto:wght@500&display=swap');
+
+:root {
+    --login-bg:#151515;
+    --title-bg:tomato;
+    --button-bg:#b20000;
+    --light-pink:tomato;
+    --image-bg:#fff;
+}
+body {
+    height: 100vh;
+    font-family: 'poppins', sans-serif;
+    background-image: linear-gradient(to top,#b20000 0%, #151515 100%);
+
+}
+.login-container {
+    height: 43.75em;
+    width: 60em ;
+    margin: 6em auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.login-info-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0.5rem;
+    background-color: var(--login-bg);
+    color: #fff;
+}
+.image-container {
+    width: 50%;
+    padding: 2px;
+    letter-spacing: 1px;
+    background-color: var(--image-bg);
+    box-sizing: border-box;
+}
+
+.title {
+    text-transform: capitalize;
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--title-bg);
+}
+
+.social-login {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.social-login-element {
+    width: 12.5rem;
+    height: 3.75rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    border: 1px solid var(--button-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.social-login-element img {
+    width: 1.875rem;
+    height: 1.875rem;
+    position: relative;
+    top: 0;
+    left: -0.625rem;
+    
+}
+.social-login-element:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+.login-info-container > p {
+    font-size: 1.25em;
+    margin-top: 1.5em;
+
+}
+
+.inputs-container {
+    
+    height: 55%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.input, .btn {
+    width: 90%;
+    height: 3.125rem;
+    font-size: 1em;
+
+}
+
+.input {
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+.input:hover {
+    border: 2px solid var(--title-bg);
+
+}
+
+.btn {
+    width: 80%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    background-color: var(--button-bg);
+    cursor: pointer;
+}
+.inputs-container p {
+    margin: 0;
+
+}
+
+.span{
+    color: var(--light-pink);
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+
